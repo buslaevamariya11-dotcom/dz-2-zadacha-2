@@ -12,9 +12,9 @@ public class Main {
             bonusAmount = depositAmount / bonusStep;
         }
         int finalBalance = initialBalance + depositAmount + bonusAmount;
-        System.out.println("Начальный счёт: " + initialBalance + " руб.");
-        System.out.println("Сумма пополнения: " + depositAmount + " руб.");
-        System.out.println("Начислено бонусов: " + bonusAmount + " руб.");
-        System.out.println("Итоговая сумма на счёте: " + finalBalance + " руб.");
+        System.out.println("Начальный счёт:" + initialBalance + "руб");
+        System.out.println("Сумма пополнения:" + depositAmount + "руб.");
+        System.out.println("Начислено бонусов:" + bonusAmount + "руб");
+        System.out.println("Итоговая сумма на счёте:" + finalBalance + "руб.");
     }
 }
